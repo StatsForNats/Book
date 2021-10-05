@@ -7,6 +7,8 @@ Introduction:
 
 The material in this repository contains the code and data used to create the examples in the book "Statistical Modeling for Naturalists" - Cambridge Scholars Press. 
 
+To download all the material needed to run the examples on this book, click on the " Code" tab in the upper right side of the directory and then click "Download ZIP".
+
 Each folder contains all the material needed for the examples presented in the given chapter, including a readme to help guide the user in what each file contains and how to run the code.
 
 To execute the code, you will need a computer with R (https://www.r-project.org/) and Stan (https://mc-stan.org/). You will also need the package 'rstan' to interface with Stan from R.
