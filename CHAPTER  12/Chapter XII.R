@@ -130,7 +130,7 @@ print(Model_12_3, digits=3,pars=c("a","b","c","cc","p","etasq",
 traceplot(Model_12_3,pars=c("a","b","c", "cc","etasq",
                             "rhosq","sigmap","sigma"))
 
-#In order to perfrom waic comparison, first you need to run (load) both 
+#In order to perform waic comparison, first you need to run (load) both 
 # the waic_sn and WAICtab functions from the 'Functions.R' script located
 # in the Extra folder.
 
