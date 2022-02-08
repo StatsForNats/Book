@@ -42,11 +42,11 @@ tsf <- tsf[order(tsf)]
 ####################################################################
 ## SETTING DUMMY VARIABLES ##
 # The reference represents 6 or less years since last fire
-# TSF2 represents intermediate burns (6 - 10 years) and 
+# TSF2 represents intermediate burns (6 - 20 years) and 
 # TSF3 long-unburned (over 20 years since last fire)
 
 dt$TSF2 <- 0   
-dt$TSF2[dt$TSF>6 & dt$TSF<=10] <- 1
+dt$TSF2[dt$TSF>6 & dt$TSF<=20] <- 1
 dt$TSF3 <- 0
 dt$TSF3[dt$TSF>20] <- 1
 
